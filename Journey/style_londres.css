@@ -1,0 +1,164 @@
+.container-fluid, img {
+    margin-top: 0;
+    padding-right: 30px;
+    width: 100%;
+
+}
+
+.logoman {
+    margin-top: 0;
+    padding-right: 30px;
+    width: 20%;
+
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    background-color: rgb(75, 50, 37);
+}
+
+.container_general {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2.5%;
+    display: flex;
+    background-color: rgba(224, 166, 41, 0.76);
+    border-radius: 15px;
+}
+
+.hotel {
+    margin: 4%;
+    width: 40%;
+}
+
+.container_hotel {
+
+    margin: 4%;
+}
+
+
+.prix {
+    background-color: rgb(159, 104, 77);
+    border-radius: 15px;
+}
+
+.book {
+    background-color: rgb(75, 50, 37);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.book:hover {
+    background-color: rgba(75, 50, 37, 0.95);
+    color: white;
+}
+
+
+.banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    position: relative;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(75, 50, 37);
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+
+body {
+    background-image: url('./assets/banner_londres.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width: 480px) {
+
+
+    .book {
+        background-color: rgba(75, 50, 37, 0.95);
+        color: aliceblue;
+        border: none;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    * {
+        font-size: 10px;
+
+    }
+}
+
+@media (min-width: 900px) {
+
+
+    .book {
+        background-color: rgb(159, 104, 77);
+        color: aliceblue;
+        border: none;
+        border-radius: 15px;
+        font-weight: bold;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    * {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logoman {
+        margin-top: 0;
+        padding-right: 30px;
+        width: 50%;
+
+    }
+}
+
+@media (min-width: 992px) {
+
+    .logoman {
+        margin-top: 0;
+        padding-right: 30px;
+        width: 20%;
+
+    }
+
+}

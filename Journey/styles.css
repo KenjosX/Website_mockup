@@ -1,0 +1,98 @@
+html {
+    font-family: helvetica;
+}
+
+.container-fluid, img {
+    margin-top: 0;
+    padding-right: 30px;
+    width: 100%;
+
+}
+
+.logoman {
+    margin-top: 0;
+    padding-right: 30px;
+    width: 20%;
+
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+body {
+    background-image: url('img/wallpaperbetter.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#searcharea {
+    margin-top: 160px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.d-flex {
+    margin: auto;
+    padding-bottom: 150px;
+    width: 50%;
+
+}
+
+.containercarousel {
+    text-align: center;
+    color: #f6f4f4;
+    padding-top: 50px;
+}
+
+.containercarousel {
+    background-color: rgba(205, 243, 255, 0.75);
+    margin: auto;
+}
+
+#carouselExampleCaptions {
+    width: 50%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#aesthetic {
+    margin: 150px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(42, 49, 140, 0.93);
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-wrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .logoman {
+        margin-top: 0;
+        padding-right: 30px;
+        width: 50%;
+
+    }
+}
+
+@media (min-width: 992px) {
+
+    .logoman {
+        margin-top: 0;
+        padding-right: 30px;
+        width: 20%;
+
+    }
+
+}
